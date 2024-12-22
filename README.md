@@ -31,36 +31,42 @@ The Event Management Full Stack project is a comprehensive web-based application
 ## Installation and Setup
 
 ### Step 1: Clone the Repository
+```bash
 git clone https://github.com/mbatinefe/event-management-full-stack.git  
 cd event-management-full-stack
-
+```
 ### Step 2: Install Dependencies
 
 #### Back-End:
+```bash
 cd project-back-express  
 npm install  
-
+```
 #### Front-End:
+```bash
 cd ../project-front-vue  
 npm install  
-
+```
 ### Step 3: Configure Environment Variables
 Create a `.env` file in the `project-back-express` directory with the following:
-
+```bash
 MONGO_URI=your_mongodb_connection_string  
 PORT=5000  
-
+```
 ---
 
 ## Execution
 
 ### Running the Back-End Server
+```bash
 cd project-back-express  
 npm start  
-
+```
 ### Running the Front-End Application
+```bash
 cd ../project-front-vue  
 npm run serve  
+```
 
 ### Accessing the Application
 Open your web browser and navigate to:  
